@@ -5,9 +5,13 @@ scala:
     
 jdk:
    - oraclejdk8
-   - openjdk7
+  # - openjdk7
    - oraclejdk7
     
+matrix:
+ include:
+   - jdk: openjdk7
+   
 build:
 
   ci:
