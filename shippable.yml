@@ -8,9 +8,7 @@ jdk:
   # - openjdk7
    - oraclejdk7
     
-matrix:
- include:
-   - jdk: openjdk7
+
    
 build:
 
