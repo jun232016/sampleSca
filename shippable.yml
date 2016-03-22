@@ -1,2 +1,5 @@
-language:scala
+language: scala
 scala: 2.11.1
+build:
+ ci:
+   - java --version
